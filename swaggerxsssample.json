@@ -1,19 +1,17 @@
-swagger: "2.0"
+openapi: "3.0.0"
+
+servers:
+  - url: 'https://domain.test/api/v1'
+    description: Dev server
+
 info:
-  title: Sample API
-  description: API description in Markdown.
-  version: 1.0.0
-host: api.example.com
-basePath: /v1
-schemes:
-  - https
+  title: API
+  description: API Documentation
+  version: '1.0'
+
 paths:
-  /users:
+  /:
     get:
-      summary: Returns a list of users.
-      description: Optional extended description in Markdown.
-      produces:
-        - application/json
       responses:
-        200:
+        '200':
           description: OK
