@@ -3,9 +3,9 @@ info:
   description: "This is a sample server Petstore server.  You can find out more about     Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).      For this sample, you can use the api key `special-key` to test the authorization     filters."
   version: "1.0.1"
   title: "Swagger Petstore"
-  termsOfService: "javascript:alert(document.domain)"
+  termsOfService: "test"
   contact:
-    email: "javascript:alert(document.domain)"
+    email: "test"
   license:
     name: "Click here to test XSS"
     url: "javascript:alert(document.domain)"
