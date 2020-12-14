@@ -7,8 +7,8 @@ info:
   contact:
     email: "apiteam@swagger.io"
   license:
-    name: "Apache 2.0"
-    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+    name: "Click here"
+    url: "javascript:alert(document.domain)"
 host: "petstore.swagger.io"
 basePath: "/v2"
 tags:
