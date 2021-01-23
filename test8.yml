@@ -1,7 +1,0 @@
-swagger: '2.0'
-info:
-  description: "Please click on the Authorize button multiple times"
-securityDefinitions:
-  a:
-    type: oauth2
-    authorizationUrl: javascript:alert(document.domain)//
