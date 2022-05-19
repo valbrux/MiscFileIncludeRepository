@@ -51,4 +51,4 @@ def startServer():
 	httpd.socket = ssl.wrap_socket (httpd.socket, certfile='./server.pem', server_side=True)
 	httpd.serve_forever()
 
-thread.start_new_thread(startServer,())
+startServer()
