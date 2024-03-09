@@ -8,7 +8,7 @@ info:
     email: "apiteam@swagger.io"
   license:
     name: "Click here"
-    url: "javascript:alert(document.domain)"
+    url: "https://www.attacker.com"
 securityDefinitions:
   a:
     type: oauth2
